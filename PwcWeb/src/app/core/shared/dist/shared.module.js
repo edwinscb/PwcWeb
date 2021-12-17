@@ -8,28 +8,45 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 exports.__esModule = true;
 exports.SharedModule = void 0;
 var core_1 = require("@angular/core");
+var common_1 = require("@angular/common");
 var http_1 = require("@angular/common/http");
 var router_1 = require("@angular/router");
 var not_found_component_1 = require("./components/not-found/not-found.component");
 var toolbar_1 = require("@angular/material/toolbar");
+var icon_1 = require("@angular/material/icon");
+var card_1 = require("@angular/material/card");
+var header_component_1 = require("./components/header/header.component");
+var footer_component_1 = require("./components/footer/footer.component");
+var carousel_component_1 = require("./components/carousel/carousel.component");
 var SharedModule = /** @class */ (function () {
     function SharedModule() {
     }
     SharedModule = __decorate([
         core_1.NgModule({
             imports: [
+                common_1.CommonModule,
                 http_1.HttpClientModule,
                 router_1.RouterModule,
-                toolbar_1.MatToolbarModule
+                toolbar_1.MatToolbarModule,
+                icon_1.MatIconModule,
+                card_1.MatCardModule,
             ],
             declarations: [
-                not_found_component_1.NotFoundComponent
+                not_found_component_1.NotFoundComponent,
+                header_component_1.HeaderComponent,
+                footer_component_1.FooterComponent,
+                carousel_component_1.CarouselComponent,
             ],
             exports: [
                 http_1.HttpClientModule,
                 router_1.RouterModule,
                 not_found_component_1.NotFoundComponent,
+                header_component_1.HeaderComponent,
+                footer_component_1.FooterComponent,
+                carousel_component_1.CarouselComponent,
                 toolbar_1.MatToolbarModule,
+                icon_1.MatIconModule,
+                card_1.MatCardModule,
             ],
             providers: []
         })

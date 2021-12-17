@@ -1,0 +1,87 @@
+.dsc-carousel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.dsc-carousel::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+}
+.dsc-carousel__content {
+  text-align: center;
+  width: 100%;
+  align-self: stretch;
+  display: flex;
+  overflow: hidden;
+}
+.dsc-carousel__content-item {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 1s all ease-in;
+  z-index: 0;
+}
+.dsc-carousel__content-item p {
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+  cursor: pointer;
+}
+.dsc-carousel__btns {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.dsc-carousel__btns > i {
+  min-height: 50px;
+  min-width: 50px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dsc-carousel__btns > i:hover {
+  opacity: 0.7;
+  background-color: black;
+}
+.dsc-carousel__steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 2%;
+}
+.dsc-carousel__steps-step {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  border-radius: 45px;
+  background: rgba(119, 117, 117, 0.7);
+  cursor: pointer;
+  transition: 0.75s all ease-in-out;
+}
+.dsc-carousel__steps-step:hover, .dsc-carousel__steps-step-active {
+  background: rgba(32, 32, 32, 0.7);
+  background-image: url();
+  z-index: 1;
+}

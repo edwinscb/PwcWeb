@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 
 @NgModule({
-  imports: [],
+  imports: [
+    
+  ],
+  bootstrap: [],
   declarations: [],
   exports: [],
   providers: []
