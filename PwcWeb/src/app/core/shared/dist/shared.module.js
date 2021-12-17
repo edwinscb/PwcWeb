@@ -15,6 +15,7 @@ var not_found_component_1 = require("./components/not-found/not-found.component"
 var toolbar_1 = require("@angular/material/toolbar");
 var icon_1 = require("@angular/material/icon");
 var card_1 = require("@angular/material/card");
+var grid_list_1 = require("@angular/material/grid-list");
 var header_component_1 = require("./components/header/header.component");
 var footer_component_1 = require("./components/footer/footer.component");
 var carousel_component_1 = require("./components/carousel/carousel.component");
@@ -30,6 +31,7 @@ var SharedModule = /** @class */ (function () {
                 toolbar_1.MatToolbarModule,
                 icon_1.MatIconModule,
                 card_1.MatCardModule,
+                grid_list_1.MatGridListModule,
             ],
             declarations: [
                 not_found_component_1.NotFoundComponent,
@@ -47,6 +49,7 @@ var SharedModule = /** @class */ (function () {
                 toolbar_1.MatToolbarModule,
                 icon_1.MatIconModule,
                 card_1.MatCardModule,
+                grid_list_1.MatGridListModule,
             ],
             providers: []
         })

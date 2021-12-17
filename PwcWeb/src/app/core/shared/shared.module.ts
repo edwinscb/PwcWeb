@@ -7,6 +7,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -20,6 +21,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
+    MatGridListModule,
   ],
   declarations: [
     NotFoundComponent,
@@ -38,6 +40,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
+    MatGridListModule,
   ],
   providers: []
 })
