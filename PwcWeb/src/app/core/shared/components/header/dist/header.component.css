@@ -3,30 +3,35 @@
   background-color: white;
   color: black;
 }
+
 .logo {
-  margin-top:2%;
+  margin-top: 2%;
 }
-.header-Right-Upper{
+
+.header-Right-Upper {
   text-decoration: none;
   color: black;
   padding: 1%;
 }
-.header-Right-Upper:hover
-{
-  color: rgba($color: #af0101, $alpha: 1.0);
-  text-decoration:underline;
+
+.header-Right-Upper:hover {
+  color: #af0101;
+  text-decoration: underline;
 }
-.containerRight{
+
+.containerRight {
   width: 100%;
   justify-content: end;
   align-self: stretch;
   display: flex;
 }
-.menuCountries{
+
+.menuCountries {
   margin-left: 5%;
   font-size: 15px;
 }
-.Search{
+
+.Search {
   width: 100%;
   justify-content: end;
   display: flex;

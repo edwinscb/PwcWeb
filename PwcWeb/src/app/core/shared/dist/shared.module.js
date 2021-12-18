@@ -16,6 +16,8 @@ var toolbar_1 = require("@angular/material/toolbar");
 var icon_1 = require("@angular/material/icon");
 var card_1 = require("@angular/material/card");
 var grid_list_1 = require("@angular/material/grid-list");
+var select_1 = require("@angular/material/select");
+var input_1 = require("@angular/material/input");
 var header_component_1 = require("./components/header/header.component");
 var footer_component_1 = require("./components/footer/footer.component");
 var carousel_component_1 = require("./components/carousel/carousel.component");
@@ -32,6 +34,8 @@ var SharedModule = /** @class */ (function () {
                 icon_1.MatIconModule,
                 card_1.MatCardModule,
                 grid_list_1.MatGridListModule,
+                select_1.MatSelectModule,
+                input_1.MatInputModule,
             ],
             declarations: [
                 not_found_component_1.NotFoundComponent,
@@ -50,6 +54,8 @@ var SharedModule = /** @class */ (function () {
                 icon_1.MatIconModule,
                 card_1.MatCardModule,
                 grid_list_1.MatGridListModule,
+                select_1.MatSelectModule,
+                input_1.MatInputModule,
             ],
             providers: []
         })

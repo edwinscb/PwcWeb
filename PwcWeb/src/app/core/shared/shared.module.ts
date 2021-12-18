@@ -8,10 +8,13 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
 
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+
 
 @NgModule({
   imports: [
@@ -22,13 +25,14 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     MatIconModule,
     MatCardModule,
     MatGridListModule,
+    MatSelectModule,
+    MatInputModule,
   ],
   declarations: [
     NotFoundComponent,
     HeaderComponent,
     FooterComponent,
     CarouselComponent,
-    
   ],
   exports: [
     HttpClientModule,
@@ -41,6 +45,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     MatIconModule,
     MatCardModule,
     MatGridListModule,
+    MatSelectModule,
+    MatInputModule,
   ],
   providers: []
 })

@@ -1,3 +1,26 @@
-<mat-toolbar color="primary">
-  <span>PwcIcon</span>
+<mat-toolbar class="site-header">
+  <mat-toolbar-row>
+    <div class="logo">
+      <a href=""><img src="assets/images/PwcHeader.png" ></a>
+    </div>
+    <div class="containerRight">
+      <a href="" class="header-Right-Upper">
+        <mat-icon>account_circle</mat-icon>Sign in</a>
+        <a href="" class="header-Right-Upper">Register</a>
+          <div>
+          <mat-form-field class="menuCountries">
+            <mat-label>Find a country or region</mat-label>
+            <mat-select >
+              <mat-option value="Colombia">Colombia</mat-option>
+              <mat-option value="England">England</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+    </div>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <mat-form-field class="Search">
+      <input matInput  type="text" value="" placeholder="Search">
+    </mat-form-field>
+  </mat-toolbar-row>
 </mat-toolbar>
