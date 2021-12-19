@@ -10,6 +10,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -27,6 +28,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     MatGridListModule,
     MatSelectModule,
     MatInputModule,
+    MatButtonModule,
+    
   ],
   declarations: [
     NotFoundComponent,
@@ -35,6 +38,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     CarouselComponent,
   ],
   exports: [
+    CommonModule,
     HttpClientModule,
     RouterModule,
     NotFoundComponent,
@@ -47,6 +51,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     MatGridListModule,
     MatSelectModule,
     MatInputModule,
+    MatButtonModule,
   ],
   providers: []
 })

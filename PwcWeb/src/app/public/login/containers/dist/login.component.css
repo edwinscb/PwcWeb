@@ -1,23 +1,25 @@
-.container{
-  background-image: url('/assets/images/PwcOficinas.jpg');
+.container {
+  background-image: url("/assets/images/PwcOficinas.jpg");
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-app-login-form{
+
+app-login-form {
   height: 80%;
 }
-app-login-register-nav{
+
+app-login-register-nav {
   height: 20%;
 }
-.container-form{
-  background: rgb(209, 207, 207);
+
+.container-form {
+  background: #d1cfcf;
   display: flex;
   flex-direction: column;
   justify-content: center;
-   
   height: 70%;
   width: 40%;
 }

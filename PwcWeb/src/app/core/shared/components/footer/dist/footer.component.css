@@ -33,13 +33,6 @@ p {
   margin: 5px;
 }
 
-.social-icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px;
-}
-
 .col-Icon {
   float: left;
   display: flex;

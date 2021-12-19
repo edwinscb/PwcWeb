@@ -16,18 +16,26 @@
   color: rgba($color: #af0101, $alpha: 1.0);
   text-decoration:underline;
 }
-.containerRight{
-  width: 100%;
-  justify-content: end;
-  align-self: stretch;
-  display: flex;
-}
 .menuCountries{
   margin-left: 5%;
   font-size: 15px;
 }
-.Search{
-  width: 100%;
-  justify-content: end;
+.bottom-row{
+  justify-content: space-between;
+}
+.top-row{
+  justify-content: space-between;
+}
+span{
+  padding-right: 1rem;
+}
+span:hover
+{
+  cursor: pointer;
+  text-decoration:underline;
+}
+.containerRight{
   display: flex;
+  flex-direction: row;
+  padding-right: 1rem;
 }

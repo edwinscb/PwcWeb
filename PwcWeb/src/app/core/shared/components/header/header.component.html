@@ -1,5 +1,5 @@
 <mat-toolbar class="site-header">
-  <mat-toolbar-row>
+  <mat-toolbar-row class="top-row">
     <div class="logo">
       <a [routerLink]="['/']"><img src="assets/images/PwcHeader.png" ></a>
     </div>
@@ -18,7 +18,16 @@
         </div>
     </div>
   </mat-toolbar-row>
-  <mat-toolbar-row>
+  <mat-toolbar-row class="bottom-row">
+    <div></div>
+    <div>
+      <span>Servicios</span>
+      <span>Productos</span>
+      <span>Industrias</span>
+      <span>Publicaciones</span>
+      <span>Nosotros</span>
+      <span>PwcTimes</span>
+    </div>
     <mat-form-field class="Search">
       <input matInput  type="text" value="" placeholder="Search">
     </mat-form-field>
