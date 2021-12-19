@@ -1,12 +1,12 @@
 <mat-toolbar class="site-header">
   <mat-toolbar-row>
     <div class="logo">
-      <a href=""><img src="assets/images/PwcHeader.png" ></a>
+      <a [routerLink]="['/']"><img src="assets/images/PwcHeader.png" ></a>
     </div>
     <div class="containerRight">
-      <a href="" class="header-Right-Upper">
+      <a [routerLink]="['/login']" class="header-Right-Upper">
         <mat-icon>account_circle</mat-icon>Sign in</a>
-        <a href="" class="header-Right-Upper">Register</a>
+        <a [routerLink]="['/register']" class="header-Right-Upper">Register</a>
           <div>
           <mat-form-field class="menuCountries">
             <mat-label>Find a country or region</mat-label>

@@ -5,6 +5,7 @@ import { SharedModule } from '../core/shared/shared.module';
 import { PublicComponent } from './public.component';
 import { HomeComponent } from './home/containers/home.component';
 import { LoginComponent } from './login/containers/login.component';
+import { RegisterComponent } from './register/containers/register.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { LoginComponent } from './login/containers/login.component';
   declarations: [
     PublicComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent,
   ],
   exports: [],
   providers: []
